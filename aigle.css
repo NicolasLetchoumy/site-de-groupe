@@ -1,0 +1,80 @@
+
+/*page aigle*/
+
+body{
+background:url('ciel.jpg');
+}
+
+#débutaigle a{
+	 color:red;
+ }
+ 
+ #titre{
+	 	 text-align:center;
+ }
+ 
+ #titre span{
+	 background-color:yellow;	 
+ }
+ 
+ 
+ p{
+	Font-family: Dejavu Sans, Arial, Verdana, sans-serif;
+ }
+ 
+ #titre3{
+	 text-align:center;
+ }
+ 
+ #titre3 span,#titre2 span{
+	 background-color:yellow;
+	 text-decoration:underline;
+ }
+ 
+ 
+ a{
+	 text-align:center;
+ }
+ 
+ #fin{
+	 text-align:right;
+	 color:red;
+ }
+ #fin span{
+	 background-color:yellow;
+	 color:black;
+ }
+ 
+
+/*page ours*/
+
+#fondours{
+	background:url('foretours.jpg');
+}
+
+#débutours a{
+	color:white;
+}
+
+#titreours span{
+	background-color:yellow;
+	text-decoration:underline;
+}
+
+#titreours2, #titreours3, #titreours4{
+	text-align:center;
+}
+
+#titreours2 span, #titreours3 span, #titreours4 span{
+	background-color:yellow;
+	text-decoration:underline;
+}
+
+#ours, #ours2, #ours3{
+	color:#FFAD00;
+}
+
+#tableours span{
+	background-color:yellow;
+	
+}
