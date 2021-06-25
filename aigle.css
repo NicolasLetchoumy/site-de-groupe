@@ -22,7 +22,7 @@ background:url('ciel.jpg');
 	Font-family: Dejavu Sans, Arial, Verdana, sans-serif;
  }
  
- #titre3{
+ #titre3, #titre2{
 	 text-align:center;
  }
  
@@ -36,11 +36,11 @@ background:url('ciel.jpg');
 	 text-align:center;
  }
  
- #fin, #finours{
+ #fin, #finours, #finecureuil{
 	 text-align:right;
 	 color:red;
  }
- #fin span, #finours span{
+ #fin span, #finours span, #finecureuil span{
 	 background-color:yellow;
 	 color:black;
 	 font-weight:bold;
@@ -49,6 +49,8 @@ background:url('ciel.jpg');
 #finpage, #finpage2{
 	text-align:center;
 }
+
+
 
 /*page ours*/
 
@@ -93,4 +95,51 @@ background:url('ciel.jpg');
 	font-family:Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
 }
 
+
+
+
+
+/*page ecureuil*/
+
+
+#fondecureuil{
+	background:url('nature9.jpg');
+}
+
+#débutecureuil a{
+	color:#8200FF;
+}
+
+#ecureuiltext1 span{
+	background-color:yellow;
+}
+
+#ecureuiltext1{
+	text-align:center;
+}
+
+#intro{
+	color:yellow;
+	font-family:Franklin Gothic, Arial Bold;
+}
+
+#ecureuiltext2{
+	color:#F802EA;
+	font-family:Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+#ecureuiltext3{
+	color:#00FED7;
+	font-family:Dejavu Sans, Arial, Verdana, sans-serif;
+	font-weight:bolder;
+}
+
+#ecureuiltitre span{
+	background-color:yellow;
+	text-decoration:underline;
+}
+#ecureuiltext4{
+	color:red;
+	font-family:MS Sans Serif, sans-serif;
+}
 
