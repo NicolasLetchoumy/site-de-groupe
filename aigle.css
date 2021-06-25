@@ -36,15 +36,19 @@ background:url('ciel.jpg');
 	 text-align:center;
  }
  
- #fin{
+ #fin, #finours{
 	 text-align:right;
 	 color:red;
  }
- #fin span{
+ #fin span, #finours span{
 	 background-color:yellow;
 	 color:black;
+	 font-weight:bold;
  }
  
+#finpage, #finpage2{
+	text-align:center;
+}
 
 /*page ours*/
 
@@ -78,3 +82,15 @@ background:url('ciel.jpg');
 	background-color:yellow;
 	
 }
+
+#ours4{
+	color:yellow;
+	font-family:Gill Sans, Gill Sans MT, Calibri, sans-serif
+}
+
+#ours5{
+	color:white;
+	font-family:Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+}
+
+
