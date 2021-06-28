@@ -62,6 +62,15 @@ background:url('ciel.jpg');
 	color:white;
 }
 
+#im1, #im3, #im4{
+	width:350px; 
+	height:350px;
+}
+
+#im2{
+	width:400px; height:350px;
+}
+
 #titreours span{
 	background-color:yellow;
 	text-decoration:underline;
