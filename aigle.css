@@ -516,3 +516,20 @@ width:100%;
 
 
 /*page lynx*/
+#fondlynx{
+	background:url('brown.jpg')
+}
+
+#débutlynx{
+	text-align:center;
+}
+
+#débutlynx a{
+		border:solid black;
+		color:black;
+}
+
+#titre1lynx{
+	text-align:center;
+	color:black;
+}
