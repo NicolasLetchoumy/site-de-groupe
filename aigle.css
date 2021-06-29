@@ -402,6 +402,7 @@ width:100%;
 	background:#DADADA;
 	width:100%;
 	height:100%;
+	border:solid gray;
 }
 
 #débutloup{
@@ -426,6 +427,7 @@ width:100%;
 	width:72%;
 	border:solid gray;
 	float:left;
+	font-size:13px;
 
 }
 
@@ -438,8 +440,8 @@ width:100%;
 }
 
 #imloup2{
-	height:350px;
-	width:35%;
+	height:250px;
+	width:39%;
 	float:left;
 	border:solid gray;
 }
@@ -447,7 +449,8 @@ width:100%;
 #cadre2loup{
 	border:solid gray;
 	float:right;
-	width:50%;
+	width:60%;
+	font-size:12px;
 
 }
 
@@ -461,28 +464,59 @@ width:100%;
 	border:solid gray;
 	float:left;
 	width:60%;
+	font-size:12px;
 }
 
 #imloup4{
 	width:39%;
-	height:450px;
+	height:294px;
 	float:right
 }
 
 #imloup5{
-	width:30%;
+	width:25%;
 	float:left;
 	border:solid gray;
+	height:280px;
 }
 
 #cadre4loup{
 	border:solid gray;
 	float:right;
-	width:60%;	
+	width:74%;	
+	font-size:12px;
 }
 
 #cadre5loup{
 	float:left;
-	width:45%;
+	width:60%;
 	border:solid gray;
+	font-size:13px;
+}
+
+#im6loup{
+	float:right;
+	width:33%;
+	height:311px;
+	border:solid gray;
+}
+
+#im7loup{
+	float:left;
+	width:25%;
+	border:solid gray;
+}
+
+#cadre6loup{
+	border:solid gray;
+	width:70%;
+	float:right;
+	font-size:12px;
+}
+
+#finloup{
+	text-align:center;
+	float:left;
+	position:relative;
+	left:450px;
 }
