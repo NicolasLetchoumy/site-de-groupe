@@ -400,6 +400,8 @@ width:100%;
 
 #fondloup{
 	background:#DADADA;
+	width:100%;
+	height:100%;
 }
 
 #débutloup{
@@ -423,22 +425,64 @@ width:100%;
 #paraloup1{
 	width:72%;
 	border:solid gray;
-	float:right;
+	float:left;
+
 }
 
 #imloup1{
 	border:solid gray;
-	height:250px;
+	height:150px;
 	width:25%;
 	border:solid gray;
+	float:right;
 }
 
 #imloup2{
-	height:450px;
+	height:350px;
+	width:35%;
+	float:left;
+	border:solid gray;
+}
+
+#cadre2loup{
+	border:solid gray;
+	float:right;
+	width:50%;
+
 }
 
 #titreloup2{
 	text-align:center;
 	color:gray;
+	
+}
+
+#cadre3loup{
+	border:solid gray;
+	float:left;
+	width:60%;
+}
+
+#imloup4{
+	width:39%;
+	height:450px;
+	float:right
+}
+
+#imloup5{
+	width:30%;
+	float:left;
+	border:solid gray;
+}
+
+#cadre4loup{
+	border:solid gray;
+	float:right;
+	width:60%;	
+}
+
+#cadre5loup{
+	float:left;
+	width:45%;
 	border:solid gray;
 }
