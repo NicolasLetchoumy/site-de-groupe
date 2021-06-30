@@ -752,3 +752,53 @@ width:100%;
 }
 
 /*page accueil*/
+
+#fondp1{
+	background:url('fondindex.jpg');
+	width:100%;
+	height:100%;
+}
+
+#titreaccueil{
+	color:black;
+	text-align:center;
+}
+
+#titre2accueil{
+	color:orange;
+	text-align:center;
+	font-family:Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	font-size:23px;
+}
+
+#ligne1{
+	margin-left:32%;
+}
+
+#ligne1 img{
+	width:210px;
+	height:210px;
+}
+
+#mot1 span, #mot2 span, #mot3 span{
+	background-color:yellow;
+	color:black;
+	font-size:25px;
+}
+
+
+#mot1{
+	margin-left:45px;
+}
+
+#mot2, #mot3{
+	margin-left:112px;
+}
+
+
+#finaccueil{
+	text-align:right;
+	font-family:Franklin Gothic, Arial Bold;
+	color:#8CFFFC;
+	text-decoration:underline;
+}
