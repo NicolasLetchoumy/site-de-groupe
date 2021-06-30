@@ -636,5 +636,119 @@ width:100%;
 	left:750px;
 }
 
+
 /*page baleine*/
 
+#fondbaleine{
+	background:url('photo/azure.jpg');
+	border:solid blue;
+}
+
+#débutbaleine{
+	text-align:center;
+	border:solid blue;
+}
+
+#débutbaleine a{
+	color:#091F99;
+	border:solid blue;
+}
+
+#titre1baleine{
+	color:blue;
+	text-align:center;
+}
+
+
+#lefttxt1baleine{
+	width:68%;
+	border:solid blue;
+	float:left;
+	height:180px;
+	font-size:12px;
+}
+
+#lefttxt2baleine{
+	width:68%;
+	border:solid blue;
+	float:left;
+	height:180px;
+	font-size:12px;
+}
+
+#lefttxt3baleine{
+	width:68%;
+	border:solid blue;
+	float:left;
+	height:180px;
+	font-size:12px;
+}
+
+#righttxt1baleine{
+	float:right;
+	width:68%;
+	height:180px;
+	border:solid blue;
+	font-size:12px;
+}
+
+#righttxt2baleine{
+	float:right;
+	width:68%;
+	height:180px;
+	border:solid blue;
+	font-size:12px;
+}
+
+#righttxt3baleine{
+	float:right;
+	width:68%;
+	height:180px;
+	border:solid blue;
+	font-size:12px;
+}
+
+#leftimg1baleine{
+	float:left;
+	width:31%;
+	height:180px;
+	border:solid blue;
+}
+
+#leftimg2baleine{
+	float:left;
+	width:31%;
+	height:180px;
+	border:solid blue;
+}
+
+#leftimg3baleine{
+	float:left;
+	width:31%;
+	height:180px;
+	border:solid blue;
+}
+
+
+#rightimg1baleine{
+	float:right;
+	width:31%;
+	height:180px;
+	border:solid blue;
+}
+
+#rightimg2baleine{
+	float:right;
+	width:31%;
+	height:180px;
+	border:solid blue;
+}
+
+#rightimg3baleine{
+	float:right;
+	width:31%;
+	height:180px;
+	border:solid blue;
+}
+
+/*page accueil*/
