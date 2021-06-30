@@ -1,40 +1,59 @@
- <!DOCTYPE html> 
+<!DOCTYPE html> 
 <html> 
-  <head>
-    <html lang="fr"> 
-    <meta charset="utf-8" /> 
-    <title>index</title> 
-  </head> 
-  <body>
-    <header>
-      <h1 align="center">PAGE D'ACCUEIL DU SUPER SITE HTML SUR LES ANIMAUX</h1>
-    </header>
-    <section>
-	    <P align="center">
-        Ce site présente neufs animaux différents.
-        Leurs noms, leurs descriptions, leurs habitats.  
-      </P>
-      
-      <table align="center">
-        <tr>
-          <td><a href="ecureuil.html"><img src="photo/ecureuil1.jpg" alt="ecureuil" width="250px" height="150px"></a></td>
-          <td><a href="loup.html"><img src="photo/loup1.jpg"         alt="loup"     width="250px" height="150px"></a></td>
-          <td><a href="lynx.html"><img src="photo/lynx1.jpg"         alt="lynx"     width="250px" height="150px"></a></td>
-        </tr>
-
-        <tr>
-          <td><a href="elephant.html"><img src="photo/elephant1.jpg" alt="elephant" width="250px" height="150px"></a></td>
-          <td><a href="girafe.html"><img src="photo/girafe1.jpg"     alt="girafe"   width="250px" height="150px"></a></td>
-          <td><a href="ours.html"><img src="photo/ours1.jpg"         alt="ours"     width="250px" height="150px"></a></td>
-        </tr>
-
-        <tr>
-          <td><a href="baleine.html"><img src="photo/baleine1.jpg" alt="baleine" width="250px" height="150px"></a></td>
-          <td><a href="dauphin.html"><img src="photo/dauphin1.jpg" alt="dauphin" width="250px" height="150px"></a></td>
-          <td><a href="aigle.html"><img src="photo/aigle1.jpg"     alt="aigle"   width="250px" height="150px"></a></td>
-        </tr>
-
-      </table>
-    </section>   
-  </body> 
+    <head>
+        <html lang="fr"> 
+        <meta charset="utf-8" /> 
+        <title>index</title> 
+		<link rel="stylesheet"href="aigle.css" />
+    </head> 
+    <body id=fondp1>
+        <header>
+            <h1 id=titreaccueil>BIENVENUE SUR LE SITE DES ANIMAUX</h1>
+        </header>
+	        <P id=titre2accueil>            
+                Ce site présente neufs animaux différents.<br/>
+                Leurs noms, leurs descriptions, leurs habitats.
+            </P>
+            <div id=ligne1>
+                <a  href="ecureuil.html"><img src="photo/ecureuil1.jpg"></a>
+                <a  href="loup.html"><img  src="photo/loup1.jpg" ></a>
+				<a  href="lynx.html"><img  src="photo/lynx1.jpg" ></a>
+            
+				<div id=lignemot>
+					<a id=mot1 href="ecureuil.html"><span>ECUREUIL</span></a>
+					<a id=mot2 href="loup.html"><span>LOUP</span></a>
+					<a id=mot3 href="lynx.html"><span>LYNX</span></a>
+				</div>
+			
+			</div>
+			<div id=ligne1>
+                <a href="elephant.html"><img src="photo/elephant1.jpg"></a>
+                <a href="girafe.html"><img src="photo/girafe1.jpg"     alt="girafe" ></a>
+				<a href="ours.html"><img src="photo/ours1.jpg"         alt="ours"   ></a>
+				
+				<div id=lignemot>
+					<a id=mot1 href="elephant.html"><span>ELEPHANT</span></a>
+					<a id=mot2 href="girafe.html"><span>GIRAFE</span></a>
+					<a id=mot3 href="ours.html"><span>OURS</span></a>
+				</div>
+			</div>
+			<div id=ligne1>
+                <a href="baleine.html"><img src="photo/baleine1.jpg" alt="baleine" ></a>
+                <a  href="dauphin.html"><img src="photo/dauphin1.jpg" alt="dauphin" ></a>
+                <a  href="aigle.html"><img src="photo/aigle1.jpg"     alt="aigle"   ></a>
+				
+				<div id=lignemot>
+					<a id=mot1 href="baleine.html"><span>BALEINE</span></a>
+					<a id=mot2 href="dauphin.html"><span>DAUPHIN</span></a>
+					<a id=mot3 href="aigle.html"><span>AIGLE</span></a>
+				</div>
+			</div>
+			
+        <footer>
+		    <p id=finaccueil>			        
+			    <em>Le site du groupe Animals</em>
+			    <em>Site Réalisé par Nicolas, Guillaume et Romain</em>	  
+            </p>
+	    </footer>
+    </body> 
 </html>
